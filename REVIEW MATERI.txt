@@ -1,0 +1,516 @@
+PERTEMUAN ||   MATERI     || PENJELASAN       || FOLDER GITHUB
+---------------------------------------------
+    1     ||PENDAHULUAN   || *PENGENALAN OOP  ||Tugas-1-Prolan-11 SAYA TELAT ULPOAD BELUM MEMLIH KELAS  (Harap Dimakluk Perwalian Unikom PAK )TERIMA KASIH
+			  || OOP (Object Oriented Programming) adalah suatu metode pemrograman yang berorientasi kepada objek. Tujuan dari OOP diciptakan adalah untuk mempermudah pengembangan program dengan cara mengikuti model yang telah ada di kehidupan sehari-hari. Jadi setiap bagian dari suatu permasalahan adalah objek, nah objek itu sendiri merupakan gabungan dari beberapa objek yang lebih kecil lagi. Saya ambil contoh Pesawat, Pesawat adalah sebuah objek. Pesawat itu sendiri terbentuk dari beberapa objek yang lebih kecil lagi seperti mesin, roda, baling-baling, kursi, dll. Pesawat sebagai objek yang terbentuk dari objek-objek yang lebih kecil saling berhubungan, berinteraksi, berkomunikasi dan saling mengirim pesan kepada objek-objek yang lainnya. Begitu juga dengan program, sebuah objek yang besar dibentuk dari beberapa objek yang lebih kecil, objek-objek itu saling berkomunikasi, dan saling berkirim pesan kepada objek yang lain.  
+                         
+	                  ||*PENGENALAN JAVA
+				Java adalah bahasa pemrograman tingkat tinggi yang berorientasi objek dan program java tersusun dari bagian yang disebut kelas. Kelas terdiri atas metode-metode yang melakukan pekerjaan dan mengembalikan informasi setelah melakukan tugasnya. Para pemrogram  Java banyak mengambil keuntungan dari kumpulan kelas di pustaka kelas Java, yang disebut dengan Java Application Programming Interface (API).
+
+
+	                  ||*MEMBUAT HELLO WORLD DI LAB
+				public class HelloWorld {
+                                      public static void main(String[] args) {
+      
+                                     System.out.println("Hello, World");
+                                             }
+                                           }
+
+
+			 ||*compailer java di cmd
+
+			    1.Mula – mula cek terlebih dahulu untuk PATH nya, apakah sudah tersedia atau belum.
+			    2. Jika PATH nya sudah tersedia, mari kita buka Command Prompt nya. Bisa melalui menu Start – All Programs – Accessories – Command Prompt                                ataupun menu Start – Run – ketikkan cmd lalu tekan Enter/klik OK
+                            3. Sekarang tentukan tempat kita menyimpan file java tersebut, misalnya di C:\java. Artinya kita harus masuk ke folder tersebut melalui                                command prompt. Umumnya saat di run, folder default disini (command prompt) adalah c:\users\[profile anda]. Untuk pindah ke c:\java,                                perlu diketikkan cd c:\java
+			    4. Untuk compile, ketikkan javac [nama file].java
+			    5. Untuk run, ketikkan java [nama file]
+
+			 ||*pengenalan github
+			   semua tugas upload di githyb masing"
+================================================================================================================================================================
+PERTEMUAN 2
+MATERI :PENGENGNALAN LEBIH LANJUT KONSEP OOP
+PENJELASAN :  KONSEP-KONSEP OOP PADA JAVA
+1. Kelas Abstrak (Class Abstraksi)
+2. Enkapsulasi (encapsulation)
+3. Pewarisan (Inheritance)
+4. Polimorfisme (polymorphism)
+
+**DILAKUKAN DI LAB**
+*Membuat biodata
+
+*input output       
+
+	Scanner adalah sebuah library yang berfungsi untuk menerima inputan dari user melalui keyboard. Variabel x, y dan hasil memiliki tipe data integer. new Scanner berfungsi untuk menjalankan objek scanner. Karena tipe data int maka menggunakan nextInt.
+
+FOLDER GITHUB : Tugas-2-Prolan-11-benar DAN PROLAN-tugas-Biodata
+===============================================================================================================================================================
+PERTEMUAN 3
+MATERI : *PENJELASAN KELAS DAN OBJEK  
+	 **PENGENALAN INHERITANCE
+	 ***TIPE DATA
+	 ****VARIABLE
+PENJELASAN : * OBJEK: Setiap objek memiliki dua karakteristik yaitu Attribute (State) dan Behavior.Attribute (State) merupakan identitas atau informasi objek itu               sendiri atau disebut juga sebagai variable, sedangkan Behavior adalah tingkah laku atau apa yang dapat dilakukan oleh objek itu atau disebut juga               sebagai method.    
+	     *CLASS :     Kelas merupakan cetakan atau blueprint atau prototype, hasil dari cetakan itu disebut objek. Contoh pesawat Boeing 737 dibuat dengan                           rancangan yang sama, rancangan pesawat ini disebut kelas. Hasil rancangan itu menjadi pesawat Boeing 737 yang disebut objek. Pesawat-pesawat                           hasil rancangan tadi bisa memiliki warna, nama yang berbeda-beda tergantung perusahaan penerbangannya. Disini jelas bahwa objek memiliki                           sifat independen. Objek adalah instance dari kelas, satu kelas bisa memiliki beberapa objek.  
+
+	    **Inheritance atau Pewarisan/Penurunan adalah konsep pemrograman dimana sebuah class dapat ‘menurunkan’ property dan method yang dimilikinya kepada class                lain. Konsep inheritance digunakan untuk memanfaatkan fitur ‘code reuse’ untuk menghindari duplikasi kode program.
+
+              Konsep inheritance membuat sebuah struktur atau ‘hierarchy’ class dalam kode program. Class yang akan ‘diturunkan’ bisa disebut sebagai class induk               (parent class), super class, atau base class. Sedangkan class yang ‘menerima penurunan’ bisa disebut sebagai class anak (child class), sub class,              derived class atauheir class.
+
+            Tidak semua property dan method dari class induk akan diturunkan. Property dan method dengan hak akses private, tidak akan diturunkan kepada class anak.              Hanya property dan method dengan hak akses protected dan public saja yang bisa diakses dari class anak.  
+
+	***TIPE DATA 
+		Java memiliki tipe data yang dapat dikategorikan menjadi dua kelompok, yaitu tipe data primitif dan referensi.
+			*Tipe Data Primitif
+
+                         · Tipe data primitif langsung di definisikan oleh java.
+                         · Tipe primitif merepresentasikan nilai tunggal.
+ 			
+			*Tipe Data Referensi
+			  · Tipe data Referensi di definiskan oleh User.
+                          · Tipe data referensi dapat menapung nilai nol atau lebih nilai primitif atau object.
+
+	
+	****variable
+		Variabel merupakan container yang digunakan untuk menyimpan suatu nilai pada sebuah program dengan tipe tertentu. Untuk mendefinisikan variabel, kita                 dapat menggunakan identifier untuk menamai variabel tersebut.
+
+
+FOLDER GITHUB :PROLAN11-Inputouput3
+
+
+==================================================================================================================================================================
+PERTEMUAN 4
+MATERI : KONSTUKTOR,METHOD,ATRIBUT DAN THIS
+PENJELASAN :Konstruktor adalah method yang secara otomatis dipanggil/dijalankan pada saat sebuah class diinstansi. Atau dengan kata lain konstruktor adalah method             yang pertama kali dijalankan pada saat sebuah objek pertama kali diciptakan. Jika dalam sebuah class tidak terdapat konstruktor maka secara otomatis Java             akan membuatkan sebuah default Konstruktor.
+
+             Nama constructor harus sama dengan nama class dan tidak boleh memiliki tipe return value. Sama halnya dengan method, konstruktor dapat memiliki satu atau              banyak parameter maupun tanpa parameter.
+
+	  Method adalah kumpulan program yang mempunyai nama. Method merupakan sarana bagi programmer untuk memecah program menjadi bagian-bagian yang kecil agar jadi            lebih kompleks sehingga dapat di gunakan berulang-ulang
+
+	 ttributes merupakan nilai data  yang  terdapat pada  suatu object  yang berasal dari class. Attributes merepresentasikan karakteristik dari suatu object.           Atau Atribut adalah sesuatu yang dimiliki oleh objek.  Setiap objek yang dibuat dari kelas yang sama akan memiliki atribut yang sama
+
+	"this"di gunakan sebagai referensi sebuah objek dari kelas dimana "this" di gunakan.
+	"this" di gunakan di sebuah konstruktor atau mehtod  pada sebuah kelas.
+	"this"hanya bisa digunakan berpasangan dengan instence variable,method,konstuktor
+
+FOLDER GITHUB :Tugas4_Prolan_11_benar
+======================================================================================================================================================================
+PERTEMUAN 5 
+MATERI :INHERITENCE
+PENJELASAN :Pewarisan (Inheritance) merupakan sifat dalam bahasa berorientasi objek yang memungkinkan sifat-sifat dari suatu kelas diturunkan ke kelas lain. Sistem OOP memungkinkan kita untuk mendefinisikan suatu kelas baru dengan mewarisi sifat dari kelas lain yang sudah ada. Penurunan sifat ini bisa dilakukan dilakukan secara bertingkat-tingkat, sehingga semakin ke bawah maka kelas tersebut semakin spesifik
+
+Untuk membuat class yang dapat mewarisi sebuah class yang lain, hal yang diperlukan adalah mendeklarasikan class tersebut dengan menggunakan extends, perhatikan struktur program berikut ini:
+	class <nama-class> extends <nama-superclass>{
+    //isi program
+}
+
+
+FOLDER GITHUB :Tugas8_Prolan_Warisan
+====================================================================================================================================================================
+PERTEMUAN 6 DAN 7 
+MATERI : OVERIDE DAN POLIMANLISM
+PENJELASAN :Override adalah ketika suatu class child yang turunan dari class parent. mempunyai beberapa method dengan nama yang sama dengan yang di punya si parent . tetapi dengan implementasi yang berbeda.
+
+Polimorfisme merupakan suatu konsep yang menyatakan sesuatu yang sama dapat memiliki berbagai bentuk dan perilaku berbeda. Istilah ini sendiri berasal dari bahasa Yunani, yang berarti “Mempunyai banyak bentuk”.
+
+Polimorfisme merupakan kemampuan objek-objek yang berbeda kelas namun terkait dalam pewarisan untuk merespon secara berbeda terhadap suatu pesan yang sama. Polimarfisme juga dapat dikatakan kemampuan sebuah objek untuk memutuskan method mana yang akan diterapkan padanya, tergantung letak objek tersebut pada jenjang pewarisan.
+
+FOLDER GITHUB:QUIZ-Prolan11
+
+===============================================================================================================================================================
+PERTEMUAN 8 UTS
+===============================================================================================================================================================
+PERTEMUAN 9
+MATERI :ABSTRACT
+PENJELASAN :Abstraksi adalah pengabstrakan atau penyembunyian kerumitan dari suatu proses. Sebagai contoh, orang tidak perlu berpikir bahwa mobil adalahkumpulan dari puluhan atau ribuan bagian-bagian kecil (mesin, kabel, baut,roda, rem, dsb). Orang hanya perlu berpikir bahwa mobil adalah sebuahobjek yang telah memiliki prilaku spesifik, yang dapat digunakan sebagaialat transportasi, sehingga dia/mereka tinggal menggunakannya ataumengendarainya tanpa harus mengetahui kerumitan proses yang terdapat didalam mobil tersebut.  Ini artinya, si pembuat mobil telah menyembunyuikansemua kerumitan-kerumitan proses yang terdapat didalam mobil dan pengguna tidak perlu mengetahui bagaimana sistem mesin , transmisi, danrem berkerja. Konsep seperti inilah yang dinamakan dengan abstraksi. Contoh abstraksi dalam model pemrograman berorientasi objek, kita sebagai programmer atau pengembang program tidak perlu tahu secara detail bagaimana cara membuat sebuah tombol, yang perlu kita ketahui adalah bagaimana cara menggunakan objek tombol yang sudah ada (baikdata/propeti maupun method-nya). dalam kasus ini, si pembuat objek telahmengabstraksikan semua proses yang berkaitan dengan pembuatan tombol.
+
+
+Contoh Abstraksi :
+           
+Contoh berikut akan menjelaskan penggunaan class abstrak dalam pemrograman Objek dalam Java. Kelas abstrak yang dibuat adalahkelas Animal, kemudian dengan dua jenis variabel, jumlah kaki danwarna. Ditambahkan method berdasarkan cara jalan dan suaranya : 
+public abstract class Hewan { 
+private int jmlKaki; 
+private Color warna; 
+public abstract void jalan();
+public abstract void suara();
+{
+
+Cara Membuat Abstrak Class 
+
+Karena kita ingin membuat class komputer sebagai abstract class, maka berikut adalah cara penulisannya di dalam PHP:
+
+
+
+Untuk membuat abstract class di dalam PHP, kita tinggal menambahkan keyword abstract sebelum nama class. Sebuah abstract class bisa memiliki property dan method biasa layaknya sebuah class ‘normal’, namun juga bisa memiliki abstract method.
+
+Cara Membuat Abstrak Method
+
+Jika sebuah method dinyatakan sebagai abstract method, maka kita tidak perlu membuat isi methodnya, tetapi hanya signature dari method tersebut. Signature terdiri dai nama method dan parameternya (jika ada) seperti contoh berikut:
+
+
+Kenapa kita tidak perlu membuat isi dari method? Ini karena jika sebuah method dinyatakan sebagaiabstract method, isi dari method tersebut akan dibuat dalam class turunan. Abstract method harusberada di dalam abstract class.
+Sebagai contoh, berikut adalah cara penulisan abstract method lihat_spec() di dalam abstract classkomputer:
+
+FOLDER GITHUB : Calculator-Abstract_Prolan_11
+
+==================================================================================================================================================================
+PERTEMUAN 10
+MATERI :ENKAPSULASI
+PENJELASAN :Enkapsulasi merupakan teknik yang membuat variabel/field class menjadi bersifat privat dan menyediakan akses ke variabel/field melalui public method. Jika field di deklarasikan sebagai private, maka field ini tidak bisa diakses oleh siapapun diluar class, dengan demikian field disembunyikan di dalam class. Dengan kata lain enkapsulasi juga berfungsi untuk menyembunyikan data. Encapsulation juga merupakan tembok penghalang yang mencegah kode atau data diakses oleh data lain di luar class. Akses ke kode dan data di kontrol melalui interface.
+
+Manfaat utama teknik encapsulation adalah kita mampu memodifikasi kode tanpa merusak kode yang telah digunakan pada class lain.
+Enkapsulasi memiliki manfaat sebagai berikut:
+> Modularitas
+Source code dari sebuah class dapat dikelola secara independen dari source code class yang lain. Perubahan internal pada sebuah class tidak akan berpengaruh bagi class yang menggunakannya.
+> Information Hiding
+Penyembunyian informasi yang tidak perlu diketahui objek lain.
+Contoh programnya :
+
+    /* Nama file : enkapsulasi.java */
+    public class enkapsulasi {
+
+       private String nama;
+       private int umur;
+
+       public int getUmur(){
+          return umur;
+       }
+       public String getNama(){
+          return nama;
+       }
+       public void setUmur( int newUmur){
+          umur = newUmur;
+       }
+       public void setNama(String newNama){
+          nama = newNama;
+       }
+    }
+
+
+Method public merupakan akses ke field class yang disediakan diluar class. Method yang disediakan diatas adalah method ‘set’ dan ‘get’. Sehingga jika class lain jika ingin mengakses field harus melalui method ‘set’ dan ‘get’.
+Variabel pada class Enkapsulasi dapat di akses dengan cara berikut.
+
+     /* Nama file : enkapsulasi_1.java */
+    public class enkapsulasi_1 {
+       public static void main(String[] args){
+          enkapsulasi enkap = new enkapsulasi();
+          enkap.setNama("Dirgan");
+          enkap.setUmur(19);
+          System.out.println("Nama : " + enkap.getNama());
+          System.out.println("Umur : "+ enkap.getUmur());
+        }
+    }
+
+FOLDER GITHUB :PROLAN_11_TUGAS_12
+
+====================================================================================================================================================================
+PERTEMUAN 11
+MATERI : INTERFACE
+PENJELASAN: Interface adalah kumpulan method yang hanya memuat deklarasi dan struktur method, tanpa detail implementasinya.
+Sedangkan detail dari method berada pada class yang mengimplementasikan interface tersebut.
+Interface digunakan jika ingin mengaplikasikan suatu method yang spesifik, yang tidak diperoleh dari proses inheritance.
+Tipe data yang boleh pada interface hanya tipe data konstan.
+
+Beberapa perbedaan Interface dan Kelas Abstrak yaitu :
+Abstract class dapat memiliki tipe data dengan semua tipe data, sedangkan interface tipe datanya hanya berupa konstanta
+Method pada abstract class dapat berupa method kongkrit dan method abstract. Sedangkan pada interface semua method harus berupa method abstract.
+
+
+Contoh
+
+GraphicObject.java
+abstract class GraphicObject {
+int x,y;
+void moveTo(int newValueX, int newValueY)
+{
+x = newValueX;
+y = newValueY;
+}
+abstract void drawShape();
+abstract void resize();
+}
+Circle.java
+public class Circle extends GraphicObject {
+
+
+void resize()
+{
+   System.out.println(“Circle Resize”);
+}
+void drawShape()
+{
+  System.out.println(“Circle Shape”);
+}
+void posisition()
+{
+    System.out.println(this.x+this.y);
+}
+}
+Main.java
+public class Main {
+/**
+* @param args the command line arguments
+*/
+public static void main(String[] args) {
+Circle Lingkaran = new Circle();
+Lingkaran.moveTo(5,5);
+Lingkaran.drawShape();
+Lingkaran.resize();
+Lingkaran.posisition();
+}
+}
+
+
+Implementasi Interface dalam Aplikasi
+Dalam membuat aplikasi kita menggunakan berbagai jenis database dengan gaya pemograman yang berbeda Java memberikan fasilitas untuk menjebatani perbedaan tersebut dengan apa yang di sebut interface.
+Iterface lebih mempermudah sistem analyst dalam membuat konsep aplikasi, interface mirip dengan pola atau bisa juga disebut cetak biru aplikasi.  Cara kerjanya adalah berdasarkan prinsip semua proses yang ada di java harus menggunakan object variabel dari java, jadi yang dikenal adalah object java bukan dari luar.
+Interface tidak berisi perintah kepada system untuk melakukan sesuatu, interface hanya memetakan apa yang harus dikirimkan dan apa yang diharapkan untuk dikembalikan
+
+Contoh Program
+
+
+public class InterfaceSegitiga implements InterfaceBangunDatar {
+    private double alas;
+    private double tinggi;
+    public String getJenis() {
+        return JENIS;
+    }
+    public InterfaceSegitiga(double alas, double tinggi) {
+        this.alas = alas;
+        this.tinggi = tinggi;
+    }
+    public double hitungLuas() {
+        return alas * tinggi * 0.5;
+    }
+    public double hitungKeliling() {
+        return alas * 3;
+    }
+}
+public class InterfaceSample {
+    public static void main(String[] args) {
+        InterfaceBujurSangkar obyek1 = new InterfaceBujurSangkar(10);
+        System.out.println("Jenisnya adalah : "+obyek1.getJenis());
+        System.out.println("Luas bujur sangkar dengan sisi 10 = "+obyek1.hitungLuas());
+        System.out.println("Kelilingnya = "+obyek1.hitungKeliling());
+        InterfaceSegitiga obyek2 = new InterfaceSegitiga(5,7.5);
+        System.out.println("Jenisnya adalah : "+obyek2.getJenis());
+        System.out.println("Luas segitiga dengan alas 5 dan tinggi 7.5 = "+obyek2.hitungLuas());
+        System.out.println("Kelilingnya = "+obyek2.hitungKeliling());
+    }
+}
+
+folder github: tugas-interface_prolan-11
+==================================================================================================================================================================
+pertemuan 12
+MATERI GENERIC CLASS
+PENJELASAN :Generic programming adalah salah satu cara pembuatan class dan method yang dapat digunakan untuk semua jenis tipe data, sehingga penggunaannya lebih fleksibel dan tidak kaku terhadap satu jenis tipe data saja, dimana dalam hal ini java adalah salah satu bahasa pemrograman yang sudah mensupportnya. Sebagai contoh apabila kita memiliki method void print(int a), hanya akan bekerja pada tipe data integer. Akan tetapi bagaimana kalau kita juga membutuhkan methid tersebut untuk tipe data String, float, char atau bahkan references type???, apakah kita harus membuat method tersebut berulang ulang kali???? Tentu saja tidak, oleh karena itu solusinya adalah dengan generic programming, yaitu membuat suatu method yang bisa digunakan untuk berbagai macam data types. 
+
+FOLDER GITHUB :tugasGeneric 
+===================================================================================================================================================================
+PERTEMUAN 13
+MATERI : GENERIC METHOD
+PENJELASAN :generik di Java adalah untuk keamanan tipe (type safety). Interfes, kelas, konstruktor dan metoda yang dideklarasikan generik harus menggunakan pamameter tipe (type parameter). Parameter tipe adalah placeholder untuk tipe sesungguhnya. Parameter tipe hanya bekerja untuk tipe acuan (variabel dengan tipe interfes atau kelas Java). Berikut ini adalah sintak pendeklarasian metoda generik.
+
+penentu <T> tipe-nilai-dikembalikan nama-metoda(daftar-parameter) {
+   // deklarasi dan pernyataan
+}
+
+T di dalam kurung sudut adalah parameter tipe. Parameter tipe di metoda generik bersifat lokal, artinya cakupannya dimulai dari posisi dimana parameter tipe dideklarasikan dan berlanjut sampai akhir dari blok metoda generik. Sebagai contoh, berikut ini adalah deklarasi metoda generik cetakNilai yang tidak mengembalikan nilai (return value):
+
+public static <T> void printNilai(T nilai) {
+   System.out.println(“Nilai : ” + nilai);
+}
+
+Sebuah metoda generik, selain menjadi bagian dari kelas generik (generik class) juga dapat menjadi bagian dari kelas biasa (ordinary class). Semua deklarasi metoda generik mempunyai bagian parameter tipe (type parameter section) yang diletakkan di dalam tanda kurung sudut (< >) sebelum tipe-nilai-dikembalikan. Setiap bagian parameter tipe dapat berisi satu atau lebih parameter tipe (disebut juga type variable) yang dipisah koma. Parameter tipe dapat digunakan sebagai tipe nilai yang dikembalikan oleh metoda generik dan juga sebagai placeholder untuk tipe argumen yang diberikan ke metoda generik. Metoda generik juga dapat memiliki tipe parameter lain selain parameter tipe dari kelasnya.
+
+Secara kaidah, nama-nama parameter tipe adalah karakter huruf besar tunggal apa saja. Mengabaikan kaidah penamaan untuk parameter tipe akan menyulitkan dalam membedakannya dengan nama-nama variabel dan kelas. Nama-nama parameter tipe yang paling umum digunakan adalah E (element), K (key), T (type), N (number), V (value), S, U, V dan sebagainya.
+Motivasi untuk metoda generik.
+
+Di metoda generik, parameter tipe (misalnya T) dapat digunakan sebagai tipe umum (generic type) untuk parameter metoda. Ketika sebuah kelas mendeklarasikan berulang-ulang metoda dengan nama sama tetapi dengan parameter berbeda (overloading method), metoda-metoda tersebut dapat diwakili oleh satu metoda generik dengan T sebagai tipe parameter yang akan mewakili tipe-tipe parameter dari semua metoda.
+
+Dua contoh program berikut adalah program serupa dimana yang satu menggunakan overloading method dan yang lain menggunakan metoda generik. Berikut ini adalah kode program untuk mencetak nilai-nilai tipe berbeda yang tersimpan di beberapa variabel menggunakan overloading method. File kode program disimpan di direktori c:\javasc dengan nama PrintNilai.java.
+?
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+	
+// Nama file : PrintNilai.java
+// Mencetak berbagai tipe nilai
+ 
+// Deklarasi kelas
+public class PrintNilai {
+    
+   // Metoda main
+   public static void main(String[] args) {
+ 
+      // Deklarasi dan pemberian nilai awal ke variabel
+      Integer varInt = 8652339;
+      Double varDouble = 96342.7656;
+      Character varChar = 'H';
+      String varString = "Belajar Java.";
+ 
+      System.out.println();
+      System.out.println("Nilai-nilai yang dicetak:");
+ 
+      // Memanggil overloading metoda print
+      print(varInt);
+      print(varDouble);
+      print(varChar);
+      print(varString);        
+   }
+ 
+   // Metoda print untuk mencetak nilai tipe long
+   public static void print(Integer nilaiInteger) {
+      System.out.println(nilaiInteger);
+   }
+ 
+   // Metoda print untuk mencetak nilai tipe double
+   public static void print(Double nilaiDouble) {
+      System.out.println(nilaiDouble);
+   }
+ 
+   // Metoda print untuk mencetak nilai tipe char
+   public static void print(Character nilaiChar) {
+      System.out.println(nilaiChar);
+   }
+ 
+   // Metoda print untuk mencetak nilai tipe String
+   public static void print(String nilaiString) {
+      System.out.println(nilaiString);
+   }
+}
+
+FOLDER GITHUB :tugas15-prolan11
+=====================================================================================================================================================================
+PERTEMUAN 14
+MATERI PACKAGE
+PENJELAS:ackage adalah sarana/cara pengelompokkan dan pengorganisasian kelas-kelas dan interface yang sekelompok menjadi suatu unit tunggal dalam library.
+
+Package juga mempengaruhi mekanisme hak akses ke kelas-kelas di dalamnya.
+
+4.2. Pengaruh Package terhadap Method main()
+
+Kelas yang mengandung method main() memilki syarat tidak berada dalam suatu package, dan hirarki posisi foldernya di atas package yang diimport.
+
+4.3. Membuat Package
+
+Ada tiga langkah untuk membuat package :
+
+    Mendeklarasikan dan memberi nama package.
+    Membuat struktur dan nama direktori yang sesuai dengan struktur dan nama package.
+    Mengkompilasi kelas-kelas sesuai dengan packagenya masing-masing.
+
+4.4. Mendeklarasikan dan Memberi Nama Package
+
+Deklarasi package harus diletakkan pada bagian paling awal (sebelum deklarasi import) dari source code setiap kelas yang dibungkus package tersebut.
+
+Bentuk umum deklarasi package :
+
+package namaPackage;
+
+Deklarasi tersebut akan memberitahukan kompilator, ke library manakah suatu kelas dikompilasi dan dirujuk.
+
+Syarat nama package :
+
+    Diawali huruf kecil
+    Menggambarkan kelas-kelas yang dibungkusnya
+    Harus unik (berbeda dengan nama package standard)
+    Merepresentasikan path dari package tersebut.
+    Harus sama dengan nama direktorinya.
+
+Contoh package standard :
+
+java.lang (berisi kelas-kelas fundamental yang sering digunakan).
+
+java.awt dan javax.swing (berisi kelas-kelas untuk membangun aplikasi GUI)
+
+java.io (berisi kelas-kelas untuk proses input output)
+
+4.5.              Membuat Struktur Direktori
+
+Pada langkah ini, buatlah direktori menggunakan file manager (di windows menggunakan explorer) sesuai struktur package dari langkah sebelumnya. Kemudian tempatkan kelas-kelas tersebut ke direktori yang bersesuaian (mirip seperti  menyimpan file-file ke dalam folder).
+
+Package dapat bersarang di package lain, sehingga dapat dibuat hirarki package.
+
+Bentuk umum pernyataan package multilevel :
+
+package namaPackage1[.namaPackage2[.namaPackage3]];
+
+Contoh hirarki package di JDK :
+
+package java.awt.image;
+
+4.6. Compile dan Run Kelas dari suatu Package
+
+Selanjutnya masing-masing kelas tersebut dalam package tersebut dikompilasi menjadi byte code (*.class). Artinya package tersebut siap digunakan.
+
+ 
+
+4.7.              Menggunakan Package
+
+Ada dua cara menggunakan suatu package yaitu :
+
+    Kelas yang menggunakan berada dalam direktori (package) yang sama dengan kelas-kelas yang digunakan. Maka tidak diperlukan import.
+    Kelas yang menggunakan berada dalam direktori (package) yang berbeda dengan kelas-kelas yang digunakan. Maka pada awal source code di kelas pengguna harus mencantumkan :
+
+import namaPackage.NamaKelas;  atau
+
+import namaPackage.*;
+
+Contoh :
+
+import java.text.DecimalFormat;
+
+import javax.swing.*;
+
+ 
+
+4.8. Setting Classpath
+
+Path hirarki package, didaftarkan sebagai salah satu nilai variabel lingkungan yang bernama Classpath.
+
+Classpath diset dengan aturan : berawal dari drive (C:\ atau D:\) sampai dengan satu tingkat sebelum kita mendeklarasikan package.
+
+FOLDER GITHUB :
+
